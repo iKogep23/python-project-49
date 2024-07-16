@@ -13,7 +13,7 @@ def main():
     name = welcome_user()
     print('Answer "yes" if number is even, otherwise answer "no".')
     for _ in range(3):
-        n = random.randint()
+        n = random.randint(1, 100)
         answer = even(n)
         if n % 2 == 0:
             if answer == 'yes':
@@ -30,7 +30,7 @@ def main():
                 print(f"Let's try again, {name}!")
                 break
     else:
-        print(f'Congratulations, {name}')
+        print(f'Congratulations, {name}!')
 
 
 if __name__ == '__main__':
