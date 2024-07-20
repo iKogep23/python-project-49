@@ -4,3 +4,5 @@
 [![Brain-even game video](https://asciinema.org/a/R6pETdqCXAxmCBydtrwrUuDUR.svg)](https://asciinema.org/a/R6pETdqCXAxmCBydtrwrUuDUR)
 
 [![Brain-calc game video](https://asciinema.org/a/7UqBZsLm9o5VaLRhhRVfOyNkX.svg)](https://asciinema.org/a/7UqBZsLm9o5VaLRhhRVfOyNkX)
+
+[![Brain-gcd game video](https://asciinema.org/a/0tXt01gsmkva638S0m4lMWj7i.svg)](https://asciinema.org/a/0tXt01gsmkva638S0m4lMWj7i)
