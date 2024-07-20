@@ -3,7 +3,7 @@ import prompt
 from brain_games.cli import welcome_user
 
 
-def even(n: int) -> str:
+def question(n: int) -> str:
     print('Question:', n)
     answer = prompt.string('Your answer: ')
     return answer
@@ -14,7 +14,7 @@ def main():
     print('Answer "yes" if number is even, otherwise answer "no".')
     for _ in range(3):
         n = random.randint(1, 100)
-        answer = even(n)
+        answer = question(n).lower()
         if n % 2 == 0:
             if answer == 'yes':
                 print('Correct!')
@@ -26,7 +26,7 @@ def main():
             if answer == 'no':
                 print('Correct!')
             else:
-                print("'no' is wrong answer ;(. Correct answer was 'yes'.")
+                print("'yes' is wrong answer ;(. Correct answer was 'no'.")
                 print(f"Let's try again, {name}!")
                 break
     else:
