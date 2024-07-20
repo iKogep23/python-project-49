@@ -8,3 +8,5 @@
 [![Brain-gcd game video](https://asciinema.org/a/0tXt01gsmkva638S0m4lMWj7i.svg)](https://asciinema.org/a/0tXt01gsmkva638S0m4lMWj7i)
 
 [![Brain-progression game video](https://asciinema.org/a/T8iZQl4mmO7EXX5GGRsbxIILe.svg)](https://asciinema.org/a/T8iZQl4mmO7EXX5GGRsbxIILe)
+
+[![Brain-prime game video](https://asciinema.org/a/KggpAfqge5FFmYcvfr2gE6QBx.svg)](https://asciinema.org/a/KggpAfqge5FFmYcvfr2gE6QBx)
