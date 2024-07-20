@@ -6,3 +6,5 @@
 [![Brain-calc game video](https://asciinema.org/a/7UqBZsLm9o5VaLRhhRVfOyNkX.svg)](https://asciinema.org/a/7UqBZsLm9o5VaLRhhRVfOyNkX)
 
 [![Brain-gcd game video](https://asciinema.org/a/0tXt01gsmkva638S0m4lMWj7i.svg)](https://asciinema.org/a/0tXt01gsmkva638S0m4lMWj7i)
+
+[![Brain-progression game video](https://asciinema.org/a/T8iZQl4mmO7EXX5GGRsbxIILe.svg)](https://asciinema.org/a/T8iZQl4mmO7EXX5GGRsbxIILe)
