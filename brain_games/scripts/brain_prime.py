@@ -5,7 +5,7 @@ from brain_games.cli import welcome_user
 
 def question(n: int) -> str:
     print('Question:', n)
-    answer = prompt.string('Your answer: ')
+    answer = prompt.string('Your answer: ').lower()
     for i in range(2, int(n * 0.5) + 1):
         if n % i == 0:
             if answer.lower() == 'no':
