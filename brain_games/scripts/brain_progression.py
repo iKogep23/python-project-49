@@ -8,7 +8,7 @@ def progression():
     start = random.randint(0, 100)
     step = random.randint(1, 10)
     for x in range(start, start + step * 10, step):
-        p.append(x)
+        p.append(str(x))
     return p
 
 
@@ -17,7 +17,7 @@ def question() -> str:
     i = random.randrange(9)
     n = p[i]
     p[i] = '..'
-    print(f'Question: {p}')
+    print(f'Question: {" ".join(p)}')
     answer = prompt.string('Your answer: ')
     if answer == str(n):
         return True
