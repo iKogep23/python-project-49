@@ -22,7 +22,7 @@ def question(n: int) -> str:
 
 def main():
     name = welcome_user()
-    print('Answer "yes" if number is even, otherwise answer "no".')
+    print('Answer "yes" if the number is even, otherwise answer "no".')
     for _ in range(3):
         n = random.randint(1, 100)
         answer = question(n)

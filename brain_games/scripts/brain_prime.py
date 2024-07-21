@@ -23,7 +23,7 @@ def question(n: int) -> str:
 
 def main():
     name = welcome_user()
-    print('Answer "yes" if number number is prime. Otherwise answer "no".')
+    print('Answer "yes" if given number is prime. Otherwise answer "no".')
     for _ in range(3):
         n = random.randint(1, 100)
         answer = question(n)
