@@ -6,5 +6,5 @@ from brain_games.games.prime import prime
 
 def main():
     name = welcome_user()
-    print('Answer "yes" if the number is prime. Otherwise answer "no".')
+    print('Answer "yes" if given number is prime. Otherwise answer "no".')
     engine(prime, name)
