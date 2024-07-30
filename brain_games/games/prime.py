@@ -1,14 +1,16 @@
-# Логика игры
+# Логика игры.
 import random
 
 
-def prime() -> str:
+RULES = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+
+
+def logic():
     n = random.randint(1, 100)
-    print('Question:', n)
     for i in range(2, int(n * 0.5) + 1):
         if n % i == 0:
-            return 'no'
+            return (n, 'no')
         else:
             continue
     else:
-        return 'yes'
+        return (n, 'yes')

@@ -1,20 +1,22 @@
-# Логика игры
+# Логика игры.
 import random
 
 
-def calc() -> str:
-    a = random.randint(1, 100)
-    b = random.randint(1, 100)
+RULES = 'What is the result of the expression?'
+
+
+def logic():
+    n = []
+    n.append(str(random.randint(1, 100)))
     operands = ['+', '-', '*']
-    operand = random.choice(operands)
-    match operand:
+    n.append(random.choice(operands))
+    n.append(str(random.randint(1, 100)))
+    a = int(n[0])
+    b = int(n[2])
+    match n[1]:
         case '+':
-            print(f'Question: {a} + {b}')
-            result = a + b
+            return (" ".join(n), a + b)
         case '-':
-            print(f'Question: {a} - {b}')
-            result = a - b
+            return (" ".join(n), a - b)
         case '*':
-            print(f'Question: {a} * {b}')
-            result = a * b
-    return result
+            return (" ".join(n), a * b)

@@ -1,8 +1,11 @@
-# Логика игры
+# Логика игры.
 import random
 
 
-def progression():
+RULES = 'What number is missing in the progression?'
+
+
+def logic():
     p = []
     start = random.randint(0, 100)
     step = random.randint(1, 10)
@@ -11,5 +14,4 @@ def progression():
         p.append(str(x))
     result = p[i]
     p[i] = '..'
-    print(f'Question: {" ".join(p)}')
-    return result
+    return (" ".join(p), result)

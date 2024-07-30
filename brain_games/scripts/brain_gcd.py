@@ -1,10 +1,7 @@
-# Вывод на экран приветствия, правил и запуск игры.
-from brain_games.cli import welcome_user
+# Запуск игры.
 from brain_games.games.engine import engine
-from brain_games.games.gcd import gcd
+import brain_games.games.gcd
 
 
 def main():
-    name = welcome_user()
-    print('Find the greatest common divisor of given numbers.')
-    engine(gcd, name)
+    engine(brain_games.games.gcd)

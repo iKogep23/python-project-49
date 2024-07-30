@@ -1,11 +1,13 @@
-# Логика игры
+# Логика игры.
 import random
 
 
-def even() -> str:
+RULES = 'Answer "yes" if the number is even, otherwise answer "no".'
+
+
+def logic():
     n = random.randint(1, 100)
-    print('Question:', n)
     if n % 2 == 0:
-        return 'yes'
+        return (n, 'yes')
     else:
-        return 'no'
+        return (n, 'no')

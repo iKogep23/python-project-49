@@ -1,10 +1,7 @@
-# Вывод на экран приветствия, правил и запуск игры.
-from brain_games.cli import welcome_user
+# Запуск игры.
 from brain_games.games.engine import engine
-from brain_games.games.calc import calc
+import brain_games.games.calc
 
 
 def main():
-    name = welcome_user()
-    print('What is the result of the expression?')
-    engine(calc, name)
+    engine(brain_games.games.calc)
