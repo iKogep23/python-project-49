@@ -6,5 +6,5 @@ import brain_games.games.gcd
 
 
 def main():
-   '''Launching the game.'''
+    '''Launching the game.'''
     control(brain_games.games.gcd)
