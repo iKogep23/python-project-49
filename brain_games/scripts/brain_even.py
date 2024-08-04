@@ -1,7 +1,10 @@
-# Запуск игры.
-from brain_games.games.engine import engine
+#!/usr/bin/env python3
+
+
+from brain_games.engine import control
 import brain_games.games.even
 
 
 def main():
-    engine(brain_games.games.even)
+    '''Launching the game.'''
+    control(brain_games.games.even)

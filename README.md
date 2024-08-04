@@ -1,6 +1,8 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/iKogep23/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/iKogep23/python-project-49/actions)
 
+[![Maintainability](https://api.codeclimate.com/v1/badges/bdbdb2429e5463f88726/maintainability)](https://codeclimate.com/github/iKogep23/python-project-49/maintainability)
+
 [![Brain-even game video](https://asciinema.org/a/u4Vqaw1ipBP7r852b3DpJpzV7.svg)](https://asciinema.org/a/u4Vqaw1ipBP7r852b3DpJpzV7)
 
 [![Brain-calc game video](https://asciinema.org/a/gG8mNSAeiPf7cLUI5tjVXXQsp.svg)](https://asciinema.org/a/gG8mNSAeiPf7cLUI5tjVXXQsp)

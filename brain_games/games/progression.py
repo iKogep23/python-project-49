@@ -1,11 +1,11 @@
-# Логика игры.
 import random
 
 
 RULES = 'What number is missing in the progression?'
 
 
-def logic():
+def play_game():
+    '''Return a progression and one missing element of this progression.'''
     p = []
     start = random.randint(0, 100)
     step = random.randint(1, 10)

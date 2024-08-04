@@ -1,22 +1,24 @@
-# Логика игры.
 import random
 
 
 RULES = 'What is the result of the expression?'
 
 
-def logic():
-    n = []
-    n.append(str(random.randint(1, 100)))
-    operands = ['+', '-', '*']
-    n.append(random.choice(operands))
-    n.append(str(random.randint(1, 100)))
-    a = int(n[0])
-    b = int(n[2])
-    match n[1]:
+def calculation(a, operand, b):
+    '''Returns the result of the expression.'''
+    match operand:
         case '+':
-            return (" ".join(n), a + b)
+            return a + b
         case '-':
-            return (" ".join(n), a - b)
+            return a - b
         case '*':
-            return (" ".join(n), a * b)
+            return a * b
+
+
+def play_game():
+    '''Returns the expression and result.'''
+    a = random.randint(1, 100)
+    operands = ['+', '-', '*']
+    operand = random.choice(operands)
+    b = random.randint(1, 100)
+    return (f'{a} {operand} {b}', calculation(a, operand, b))
