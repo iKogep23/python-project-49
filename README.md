@@ -26,9 +26,8 @@ Run `make build` to build the project.
 ### Installation to a virtual environment
 ___
 If your system refuses to install the package, one way out is to install this package in a virtual environment.
-1. Run `python3 -m venv environment_name` to build a python venv.
-2. Run `environment_name/bin/pip3 install python-project-49/dist/*.whl` to install this package to a virtual environment you just created.<br>
-*__Make virtual environment outside of the project.__*
+1. Run `python3 -m venv environment_name` to build a python venv. *Make virtual environment outside of the project.*
+2. Run `environment_name/bin/pip3 install python-project-49/dist/*.whl` to install this package to a virtual environment you just created.
 
 ### Available commands after installation
 ___
