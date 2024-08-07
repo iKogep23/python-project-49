@@ -11,9 +11,9 @@ ___
 - Calculate the missing number in a progression in **progression game**.
 - Determine if given number is prime in **prime game**.
 
-### Dependancies
+### Dependencies
 ___
-This package requires the following dependancies:
+This package requires the following dependencies:
 - python, version 3.10 and up
 - prompt, version 0.4.1 and up
 To install them run `make install` command.
