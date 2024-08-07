@@ -1,17 +1,15 @@
-### BRAIN GAMES
-___
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/iKogep23/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/iKogep23/python-project-49/actions)
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/bdbdb2429e5463f88726/maintainability)](https://codeclimate.com/github/iKogep23/python-project-49/maintainability)
 
-### This project contains five simple mathematics quiz games:
+### Brain Games project contains five simple mathematics quiz games:
 ___
-- Determine if given number is even or odd in even game.
-- Calculate a mathematical expression in calc game.
-- Calculate the greatest common divisor in gcd game.
-- Calculate the missing number in a progression in progression game.
-- Determine if given number is prime in prime game.
+- Determine if given number is even or odd in **even game**.
+- Calculate a mathematical expression in **calc game**.
+- Calculate the greatest common divisor in **gcd game**.
+- Calculate the missing number in a progression in **progression game**.
+- Determine if given number is prime in **prime game**.
 
 ### Dependancies
 ___
@@ -30,7 +28,7 @@ ___
 If your system refuses to install the package, one way out is to install this package in a virtual environment.
 1. Run `python3 -m venv environment_name` to build a python venv.
 2. Run `environment_name/bin/pip3 install python-project-49/dist/*.whl` to install this package to a virtual environment you just created.
-- *Make virtual environment outside of the project.*
+*__Make virtual environment outside of the project.__*
 
 ### Available commands after installation
 ___
