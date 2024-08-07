@@ -7,14 +7,14 @@ def control(game):
     name = welcome_user()
     print(game.RULES)
     for _ in range(3):
-        res = game.play_game()
-        print('Question:', res[0])
+        q, result = game.play_game()
+        print('Question:', q)
         answer = prompt.string('Your answer: ')
-        if str(res[1]) == answer.lower():
+        if str(result) == answer.lower():
             print('Correct!')
         else:
             print(f"'{answer}' is wrong answer ;(. "
-                  f"Correct answer was '{res[1]}'.")
+                  f"Correct answer was '{result}'.")
             print(f"Let's try again, {name}!")
             break
     else:
